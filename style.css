@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  padding: 20px;
+}
+
+header p {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.banner {
+  height: 60vh;
+  background-image: url("img/capa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner .titulo {
+  color: #fff;
+  background-color: #0000009d;
+  padding: 40px 200px;
+  text-align: end;
+}
+
+.sobre-nos {
+  padding: 40px;
+}
+
+.sobre-nos .conteudo {
+  margin: 0 auto;
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.conteudo .galeria img {
+  width: 220px;
+  height: auto;
+}
+
+.sobre-nos .conteudo .topicos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sobre-nos .conteudo .topicos p {
+  border-left: 1px solid black;
+  padding-left: 5px;
+}
+
+.banner-contato {
+  background-color: rgb(209, 2, 2);
+  color: #fff;
+  height: 10vh;
+  margin-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+}
+
+.banner-contato h3 {
+  background-color: rgb(124, 1, 1);
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+}
+
+.cadastro {
+  width: 50%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+fieldset input {
+  padding: 5px;
+}
+
+button {
+  background-color: rgb(209, 2, 2);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  color: rgb(209, 2, 2);
+}
+
+footer p {
+  text-align: center;
+}
